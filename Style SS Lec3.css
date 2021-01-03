@@ -1,0 +1,317 @@
+*{margin:0;padding:0;}
+a{text-decoration:none;}
+
+.header{
+    background-image: url("https://wallpaperset.com/w/full/0/6/d/34050.jpg");
+    background-size: cover;
+    background-position: 50px 704px;
+	font-family: Trebuchet MS;
+	text-align: center;
+	padding:30px 0px 30px 0px;
+
+}
+   
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@{
+	text-decoration:none;
+}
+
+.header ul li{
+	list-style: none;
+	display:inline-block;
+	margin: 0 15px;
+
+}
+
+.header ul li a{
+	color:orange;
+	font-size: 22px;
+    text-shadow: 2px 2px 5px black;
+    font-weight: 400;
+}
+
+.header ul li a:hover{
+	color: aqua;	
+	font-size: 150%;
+	transition: all 0.5s cubic-bezier(1, -1.4, 0, 2);
+    text-decoration: double underline;
+}
+
+.newsletter{
+    background-image: url("https://wallpaperset.com/w/full/e/7/6/80713.jpg");
+    background-size: cover;
+    background-position: 50px 827px;
+	color:snow;
+	padding:80px 0px;
+	text-align: center
+}
+
+.container{
+	width: 1140px;
+	margin:auto;
+}
+
+.newsletter h1{
+	font-size:42px;
+	color:aqua;
+    text-shadow: 3px 8px 4px #000000;
+    font-weight: 400;
+	margin-bottom: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.newsletter p{
+    font-size: 18px;
+    margin-bottom: 40px;
+    text-shadow: 3px 8px 4px #000000;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: snow;
+}
+
+.input-1{
+    width: 25%;
+    padding: 18px;
+    background-color: transparent;
+    color:snow;
+    font-family: Georgia, serif;
+    border: 1.75px ridge aqua;
+
+}
+
+.input-2{
+    width: 30%;
+    padding: 18px;
+    background-color: transparent;
+    color:snow;
+    font-family: Georgia, serif;
+    border: 1.75px ridge aqua;
+}
+
+.input-3{
+    width: 13%;
+    padding: 18px;
+    margin: 35px;
+    background-color: orangered;
+    color:snow;
+    border: 0.05px ridge aqua;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+
+.input-3:hover{
+	background-color: slateblue;
+    border: 1px ridge slateblue;
+    cursor: pointer;
+    width: 15%;
+    border-radius: 50px;
+    padding: 22px 22px;
+    font-weight: 700;
+    font-size: 18x;
+    transform: scale(1.05);
+    transition: 0.25s linear;
+ }
+
+.input-4{
+    width: 32.43%;
+    padding: 18px;
+    background-color: transparent;
+    color:snow;
+    font-family: Georgia, serif;
+    border: 1.75px ridge snow;
+  	margin: 0px 14px 16px 0px;
+}
+
+.input-5{
+    width: 32.43%;
+    padding: 18px;
+    background-color: transparent;
+    color:snow;
+    font-family: Georgia, serif;
+    border: 1.75px ridge snow;
+    margin: 0px 0px 16px 0px;
+}
+
+.letstalk{
+	background-image: url("https://wallpaperset.com/w/full/2/d/5/197010.jpg");
+	background-size: cover;
+    background-attachment: fixed;
+    color:snow;
+	padding:80px 0px;
+	text-align: center;
+}
+
+.letstalk .textarea{
+	width: 70%;
+	background-color: transparent;
+    color:snow;
+    font-family: Georgia, serif;
+    border: 1.75px ridge snow;
+    margin: 0px 0px 15px 0px;
+    padding: 18px;
+
+}
+
+.letstalk h1{
+	font-size:42px;
+	color: orangered;
+    text-shadow: 3px 8px 4px #000000;
+	font-weight: 400;
+	margin-bottom: 30px;
+	font-family: Georgia, serif;
+}
+
+.letstalk p{
+    font-size: 18px;
+    margin-bottom: 40px;
+    text-shadow: 3px 8px 4px #000000;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: snow;
+}
+
+.sendMessage{
+    width: 13%;
+    padding: 18px;
+    margin: 35px;
+    background-color: orangered;
+    color:snow;
+    border: 0.05px ridge aqua;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+
+.sendMessage:hover{
+    background-color: slateblue;
+    border: 1px ridge slateblue;
+    cursor: pointer;
+    width: 15%;
+    border-radius: 50px;
+    padding: 22px 22px;
+    font-weight: 500;
+    font-size: 18px;
+    transform: scale(1.05);
+    transition: 0.25s linear;
+ }
+
+ ::placeholder {
+    color: orangered;
+    text-shadow: 3px 8px 4px #000000;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: georgia, sen-serif;
+}
+
+/**************************
+Footer
+***************************/
+.footer{
+    background-image: url("https://wallpaperset.com/w/full/4/d/9/196953.jpg");
+    height:400px;
+    background-size: cover;
+    background-position: 50px 827px;
+    padding: 80px 0px;
+
+
+} 
+
+.col h6{
+    color: snow;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 0px 20px 0px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.col .menu ul li{
+    list-style-type: none;
+}
+
+.col .menu ul li a{
+    color: #CECECE;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+hr{
+    background: #cecece;
+    height: 1px;
+    margin: 40px 0;
+}
+
+.footer-bottom ul li{
+    list-style-type: none;
+    display: inline-block;
+    border-right: 2px solid #cecece;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.footer-bottom ul li a{
+    color: #CECECE;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.last_list{
+    border-right:none !important;
+}
+
+
+.footer-bottom p{
+    color: #CECECE;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 20px 0px; 
+ }   
+
+.engbro{
+    font-family: georgia, serif;
+    font-weight: 500;
+    color: white;
+}
+
+.engbro:hover{
+    font-family: georgia, serif;
+    color: snow;
+    font-size: 20px; 
+    transition: 0.25s ease-in-out;
+}
+
+.social-icon ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+
+}
+
+.social-icon ul li a i{
+    color: snow;
+    height: 40px;
+    width: 40px;
+    background-color: orangered;
+    text-align: center;
+    line-height: 40px;
+    border-radius:100%;
+    border: 1.5px solid black;
+    transition: 1.5s linear;
+
+}
+
+.social-icon ul li a i:hover{
+    border: 1.5px solid orangered;
+    background-color: transparent;
+    color: orangered;
+    transform: scale(1.5);
+    transition: all 1s cubic-bezier(1, -1.4, 0, 2.2);
+
+}
